@@ -13,3 +13,7 @@
 7.- grep -c González alumnos.txt
 
 8.- cat alumnos.txt | sed 's/Vicente/Pepe/g'
+
+9.- cat alumnos.txt | tail -n+2 | head -n 17
+
+10.- grep ^J alumnos.txt | awk '{print $1,$2}' | uniq
