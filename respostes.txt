@@ -17,3 +17,5 @@
 9.- cat alumnos.txt | tail -n+2 | head -n 17
 
 10.- grep ^J alumnos.txt | awk '{print $1,$2}' | uniq
+
+11.- sed 's/K/1000/' du.txt | sed 's/M/1000000/'| sort -r | awk '{print $2}'| tail -n+1 | head -n 3
