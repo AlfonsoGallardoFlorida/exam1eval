@@ -1,0 +1,11 @@
+1.- mkdir examen
+
+2.- cd examen/
+
+3.- grep -on SI alumnos.txt > examen/si
+
+4.- mkdir si
+
+5.- mv si.txt si
+
+6.- awk '{print $1,$2}' alumnos.txt | sed 's/ /-/g'
